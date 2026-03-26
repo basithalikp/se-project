@@ -1,6 +1,11 @@
 {
+  "scripts": {
+    "start:prod": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run build && serve -s build -l 3001\""
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
-    "file-saver": "^2.0.5"
+    "file-saver": "^2.0.5",
+    "concurrently": "^8.2.0",
+    "serve": "^14.1.2"
   }
 }

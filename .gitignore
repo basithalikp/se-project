@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+build/
+dist/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend build
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend build
+backend/build/
+backend/dist/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temp files
+*.tmp
+*.bak
+temp/
+tmp/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# System
+.vscode-server/
+.DS_Store

@@ -1,0 +1,400 @@
+/* COMPREHENSIVE TEXT VISIBILITY FIX */
+/* This file ensures ALL text elements are visible with white color */
+
+/* Chart.js Legend - Ensure white text and dark background */
+.chartjs-legend {
+  background-color: rgba(26, 14, 46, 0.95) !important;
+  border: 2px solid rgba(168, 85, 247, 0.8) !important;
+  border-radius: 10px !important;
+  padding: 20px !important;
+}
+
+.chartjs-legend-item {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.chartjs-legend-item label {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* Chart.js Tooltip */
+.chartjs-tooltip {
+  background-color: rgba(15, 30, 55, 0.95) !important;
+  color: #ffffff !important;
+}
+
+/* Canvas Labels and Text */
+canvas {
+  filter: brightness(1.1) contrast(1.2);
+}
+
+/* All card titles - white */
+.card-title {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* All headings - white */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* All labels - white */
+label {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* All paragraph text - white */
+p {
+  color: #ffffff !important;
+}
+
+/* Form labels specifically */
+.form-label {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+/* Table text - all white */
+table {
+  color: #ffffff !important;
+}
+
+table th {
+  color: #ffffff !important;
+  background-color: rgba(168, 85, 247, 0.2) !important;
+  font-weight: 700 !important;
+}
+
+table td {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+}
+
+table tbody tr {
+  border-bottom: 1px solid rgba(168, 85, 247, 0.2) !important;
+}
+
+table tbody tr:hover {
+  background-color: rgba(168, 85, 247, 0.1) !important;
+}
+
+/* Span elements - white */
+span {
+  color: #ffffff !important;
+}
+
+/* Legend in any form - white */
+legend {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* All text inputs - white text */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(168, 85, 247, 0.3) !important;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="number"]::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Button text - white */
+button {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Cards and containers - ensure visible text */
+.card {
+  color: #ffffff !important;
+}
+
+.card h2 {
+  color: #ffffff !important;
+}
+
+.card h3 {
+  color: #ffffff !important;
+}
+
+/* Navigation - white text */
+.navigation {
+  color: #ffffff !important;
+}
+
+.nav-tab {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Alert messages - white text */
+.alert {
+  color: #ffffff !important;
+}
+
+.alert-info {
+  color: #ffffff !important;
+}
+
+.alert-success {
+  color: #ffffff !important;
+}
+
+.alert-warning {
+  color: #ffffff !important;
+}
+
+.alert-error {
+  color: #ffffff !important;
+}
+
+/* Any element with data - white */
+[data-testid] {
+  color: #ffffff !important;
+}
+
+/* Chart axis labels - ensure white */
+.chartjs-render-monitor {
+  color: #ffffff !important;
+}
+
+/* Div text content - white by default */
+div {
+  color: #ffffff !important;
+}
+
+/* Specific chart legend fix */
+.chart-legend {
+  background-color: rgba(26, 14, 46, 0.95) !important;
+  border: 2px solid rgba(168, 85, 247, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.chart-legend-item {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* Moisture Chart specific */
+.moisture-chart {
+  color: #ffffff !important;
+}
+
+.moisture-chart-legend {
+  background-color: rgba(26, 14, 46, 0.95) !important;
+  border: 2px solid rgba(168, 85, 247, 0.8) !important;
+}
+
+/* Irrigation Panel specific */
+.irrigation-panel {
+  color: #ffffff !important;
+}
+
+.irrigation-status {
+  color: #ffffff !important;
+}
+
+/* Water Market specific */
+.water-market {
+  color: #ffffff !important;
+}
+
+.water-balance {
+  color: #ffffff !important;
+}
+
+.water-inventory {
+  color: #ffffff !important;
+}
+
+/* Trade Market specific */
+.trade-market {
+  color: #ffffff !important;
+}
+
+/* Dashboard specific */
+.dashboard {
+  color: #ffffff !important;
+}
+
+/* Override any text-dark or text-muted classes */
+.text-dark,
+.text-muted,
+.text-light {
+  color: #ffffff !important;
+}
+
+/* Tooltip text - white */
+[role="tooltip"] {
+  color: #ffffff !important;
+  background-color: rgba(15, 30, 55, 0.95) !important;
+}
+
+/* Popover text - white */
+[role="dialog"] {
+  color: #ffffff !important;
+}
+
+/* Ensure all SVG text is white */
+svg text {
+  fill: #ffffff !important;
+  stroke: none !important;
+}
+
+svg tspan {
+  fill: #ffffff !important;
+}
+
+/* Ensure all pseudo-elements are visible */
+::before,
+::after {
+  color: #ffffff !important;
+}
+
+/* Fix any light backgrounds with dark text */
+.bg-light,
+.bg-white {
+  background-color: rgba(26, 14, 46, 0.6) !important;
+  color: #ffffff !important;
+}
+
+/* Ensure text in dark containers is white */
+[class*="dark"],
+[class*="bg-dark"] {
+  color: #ffffff !important;
+}
+
+/* Any readonly or disabled elements - keep white */
+input:disabled,
+textarea:disabled,
+select:disabled,
+button:disabled {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+
+/* Make sure table headers are visible */
+th,
+thead {
+  background-color: rgba(168, 85, 247, 0.25) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* List items - white */
+li {
+  color: #ffffff !important;
+}
+
+ol, ul {
+  color: #ffffff !important;
+}
+
+/* Definition lists - white */
+dt, dd {
+  color: #ffffff !important;
+}
+
+/* Article and section text - white */
+article, section {
+  color: #ffffff !important;
+}
+
+/* Fieldset text - white */
+fieldset {
+  color: #ffffff !important;
+}
+
+/* Any emphasis or strong - white */
+em, strong, b, i {
+  color: #ffffff !important;
+}
+
+/* Blockquote - white */
+blockquote {
+  color: #ffffff !important;
+  border-color: rgba(168, 85, 247, 0.3) !important;
+}
+
+/* Code blocks - white */
+code, pre {
+  color: #ffffff !important;
+  background-color: rgba(26, 14, 46, 0.6) !important;
+}
+
+/* Links - ensure readability */
+a {
+  color: #06b6d4 !important;
+  text-decoration: underline !important;
+}
+
+a:visited {
+  color: #a78bfa !important;
+}
+
+a:hover {
+  color: #22d3ee !important;
+}
+
+/* Badge and badge-like elements */
+.badge,
+[class*="badge"] {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* Status indicators */
+.status,
+[class*="status"] {
+  color: #ffffff !important;
+}
+
+/* Make sure everything in containers is readable */
+.container,
+.content,
+[class*="content"] {
+  color: #ffffff !important;
+}
+
+/* Final fallback - ensure white text everywhere */
+body * {
+  color: #ffffff !important;
+}
+
+/* But allow links to be distinct colors */
+a, a * {
+  color: #06b6d4 !important;
+}
+
+a:hover, a:hover * {
+  color: #22d3ee !important;
+}
+
+/* Reset some specific overrides if needed */
+button,
+.btn {
+  color: #ffffff !important;
+}
+
+button:hover,
+.btn:hover {
+  color: #ffffff !important;
+}

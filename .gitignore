@@ -1,14 +1,21 @@
-# Dependencies
+# Dependencies (CRITICAL - never commit node_modules)
 node_modules/
+*/node_modules/
+.pnp
+.pnp.js
 package-lock.json
 yarn.lock
 
-# Environment variables
+# Environment variables - NEVER COMMIT THESE
 .env
 .env.local
 .env.*.local
 backend/.env
+backend/.env.local
+backend/.env.production
+frontend/.env
 frontend/.env.local
+frontend/.env.production
 
 # Logs
 logs/
@@ -40,12 +47,11 @@ out/
 ehthumbs.db
 Thumbs.db
 
-# Frontend build
+# Frontend build output
 frontend/build/
-frontend/.env.local
-frontend/.env.*.local
+frontend/dist/
 
-# Backend build
+# Backend build output
 backend/build/
 backend/dist/
 
@@ -63,6 +69,13 @@ tmp/
 *.sqlite
 *.sqlite3
 
-# System
+# System & Deployment
 .vscode-server/
-.DS_Store
+.vercel/
+.render/
+.railway/
+railway.local.json
+
+# Node version managers
+.nvmrc
+.node-version

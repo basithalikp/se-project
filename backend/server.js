@@ -17,7 +17,7 @@ app.use(cors())
 app.use(express.json())
 
 // MongoDB connection - Use environment variable or fallback to localhost
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/smartWaterDB"
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://sithukp50_se_agriculture:tb8H9IO8zB9SHOiH@cluster0.rwwoabv.mongodb.net/smart-water?appName=Cluster0"
 
 mongoose.connect(MONGODB_URI)
 .then(() => {

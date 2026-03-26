@@ -11,8 +11,6 @@ echo "📊 Dashboard: http://localhost:3000"
 echo "🔌 API: http://localhost:5000"
 echo ""
 
-cd d:/SmartWaterSystem
-
 # Start backend in background
 cd backend && npm start &
 BACKEND_PID=$!
@@ -21,7 +19,7 @@ BACKEND_PID=$!
 sleep 3
 
 # Start frontend in same terminal after backend
-cd ../frontend && npm start &
+cd /home/katen/gits/se-project/frontend && npm start &
 FRONTEND_PID=$!
 
 echo ""

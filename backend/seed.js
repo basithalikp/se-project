@@ -8,7 +8,7 @@ const Farm = require("./models/Farm")
 const Sensor = require("./models/Sensor")
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/smartWaterDB")
+mongoose.connect("mongodb+srv://sithukp50_se_agriculture:tb8H9IO8zB9SHOiH@cluster0.rwwoabv.mongodb.net/smart-water?appName=Cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log("Error:", err))
 

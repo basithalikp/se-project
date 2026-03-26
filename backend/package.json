@@ -9,7 +9,12 @@
     "seed": "node seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["agriculture", "water", "management", "iot"],
+  "keywords": [
+    "agriculture",
+    "water",
+    "management",
+    "iot"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -20,6 +25,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mongodb": "^7.1.1",
     "mongoose": "^7.0.0"
   },
   "devDependencies": {

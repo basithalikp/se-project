@@ -16,8 +16,10 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-// MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/smartWaterDB")
+// MongoDB connection - Use environment variable or fallback to localhost
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/smartWaterDB"
+
+mongoose.connect(MONGODB_URI)
 .then(() => {
   console.log("MongoDB Connected")
 })

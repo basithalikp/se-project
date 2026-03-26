@@ -95,6 +95,7 @@ function FarmMap() {
               {/* Render farms as markers */}
               {farms.map((farm) => {
                 const sensor = getSensorByFarmId(farm._id)
+                // eslint-disable-next-line no-unused-vars
                 const moistureColor = sensor
                   ? getMoistureColor(sensor.soilMoisture)
                   : "#95a5a6"

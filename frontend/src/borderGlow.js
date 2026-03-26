@@ -4,6 +4,7 @@
  */
 
 const EDGE_SENSITIVITY = 50; // How close to edge before glow activates
+// eslint-disable-next-line no-unused-vars
 const GLOW_RADIUS = 600; // Size of glow effect
 
 export const initBorderGlow = () => {
